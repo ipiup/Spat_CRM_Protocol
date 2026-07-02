@@ -1,0 +1,125 @@
+5.6635 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+5.6641 	INFO 	Loaded monitor calibration from ['2026_07_01 09:38']
+5.8135 	INFO 	Using renderer 'Intel(R) Arc(TM) Pro 140T GPU (16GB)' for graphics
+5.8135 	INFO 	OpenGL version supported by driver is 4..
+5.8391 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000025C9F703640>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000025C9F7035E0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000025C96DA64D0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(560.0), np.float64(300.0)], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.8392 	EXP 	window1: backgroundImage = ''
+5.8392 	EXP 	window1: backgroundFit = 'none'
+5.8537 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8620 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8702 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8785 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8890 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8968 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9048 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9129 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9207 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9298 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9379 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9459 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9538 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9618 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9697 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9776 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9857 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9935 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.0023 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.0107 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.0187 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.0190 	DEBUG 	Uploading Texture Font fontname to graphics card
+6.0238 	DEBUG 	Upload of Texture Font fontname complete
+6.0356 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.0449 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.0531 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.0533 	DEBUG 	Uploading Texture Font fontname to graphics card
+6.0563 	DEBUG 	Upload of Texture Font fontname complete
+6.0575 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+6.0576 	EXP 	window1: recordFrameIntervals = False
+6.2296 	EXP 	window1: recordFrameIntervals = True
+7.8972 	EXP 	window1: recordFrameIntervals = False
+7.8973 	EXP 	Screen (0) actual frame rate measured at 60.03Hz
+7.9262 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.9361 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.9443 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.9542 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.9623 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.9704 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.9783 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.9863 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.9943 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.0028 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.0031 	DEBUG 	Uploading Texture Font fontname to graphics card
+8.0038 	DEBUG 	Upload of Texture Font fontname complete
+8.1191 	INFO 	keyboard.Keyboard is using ptb backend.
+8.1192 	EXP 	CRM_Spat: status = STARTED
+8.1705 	EXP 	Created text_instruction = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_instruction', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Selectionner la réponse', units='height', win=Window(...), wrapWidth=1)
+8.1733 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.1734 	DEBUG 	Uploading Texture Font fontname to graphics card
+8.1747 	DEBUG 	Upload of Texture Font fontname complete
+8.1780 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.1785 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.1787 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.1794 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.1800 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.1802 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.1804 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.1810 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.1814 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.1816 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.1818 	DEBUG 	Uploading Texture Font fontname to graphics card
+8.1822 	DEBUG 	Upload of Texture Font fontname complete
+8.1852 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.1853 	DEBUG 	Uploading Texture Font fontname to graphics card
+8.1866 	DEBUG 	Upload of Texture Font fontname complete
+8.1924 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.1925 	DEBUG 	Uploading Texture Font fontname to graphics card
+8.1940 	DEBUG 	Upload of Texture Font fontname complete
+8.1995 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.1996 	DEBUG 	Uploading Texture Font fontname to graphics card
+8.2014 	DEBUG 	Upload of Texture Font fontname complete
+8.2067 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.2069 	DEBUG 	Uploading Texture Font fontname to graphics card
+8.2086 	DEBUG 	Upload of Texture Font fontname complete
+8.2140 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.2141 	DEBUG 	Uploading Texture Font fontname to graphics card
+8.2157 	DEBUG 	Upload of Texture Font fontname complete
+8.2215 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.2216 	DEBUG 	Uploading Texture Font fontname to graphics card
+8.2231 	DEBUG 	Upload of Texture Font fontname complete
+8.2285 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.2286 	DEBUG 	Uploading Texture Font fontname to graphics card
+8.2302 	DEBUG 	Upload of Texture Font fontname complete
+8.3617 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.3622 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.3626 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.3631 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.3634 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.3640 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.3645 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.3649 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.3650 	DEBUG 	Uploading Texture Font fontname to graphics card
+8.3667 	DEBUG 	Upload of Texture Font fontname complete
+8.3716 	EXP 	Created text_instruction = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_instruction', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Selectionner la réponse', units='height', win=Window(...), wrapWidth=1)
+8.5917 	EXP 	Created text_instruction = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_instruction', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Selectionner la réponse', units='height', win=Window(...), wrapWidth=1)
+0.0407 	EXP 	text_instruction: autoDraw = True
+0.6493 	DATA 	Mouse: Left button down, pos=(368,261)
+0.6922 	EXP 	text_instruction: autoDraw = False
+0.7594 	DATA 	Mouse:  Left button up, pos=(368,261)
+1.4267 	DATA 	Mouse: Left button down, pos=(377,61)
+1.4582 	EXP 	text_instruction: autoDraw = True
+1.5281 	DATA 	Mouse:  Left button up, pos=(377,61)
+1.9930 	DATA 	Mouse: Left button down, pos=(356,264)
+2.0091 	EXP 	text_instruction: autoDraw = False
+2.0944 	DATA 	Mouse:  Left button up, pos=(356,264)
+2.5279 	DATA 	Mouse: Left button down, pos=(346,70)
+2.5573 	EXP 	text_instruction: autoDraw = True
+2.6017 	DATA 	Mouse:  Left button up, pos=(346,70)
+2.9931 	DATA 	Mouse: Left button down, pos=(346,271)
+3.0088 	EXP 	text_instruction: autoDraw = False
+3.0929 	DATA 	Mouse:  Left button up, pos=(346,271)
+3.4929 	DATA 	Mouse: Left button down, pos=(352,60)
+3.5100 	EXP 	CRM_Spat: status = STOPPED
+3.5127 	INFO 	saved data to 'C:\\Users\\chamery\\Documents\\Spat_CRM_Protocol\\Spat_CRM_Protocol\\src\\data\\pilot_CRM_Spat_2026-07-02_09h52.46.208.csv'
+3.5134 	INFO 	saved data to C:\Users\chamery\Documents\Spat_CRM_Protocol\Spat_CRM_Protocol\src\data\pilot_CRM_Spat_2026-07-02_09h52.46.208.psydat
+3.7062 	DEBUG 	Saving data for CRM_Spat ExperimentHandler
+3.7076 	INFO 	Stopping keyboard key buffers.
