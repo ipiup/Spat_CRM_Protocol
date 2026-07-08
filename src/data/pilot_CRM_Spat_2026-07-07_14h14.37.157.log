@@ -1,0 +1,158 @@
+6.6146 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+6.6155 	INFO 	Loaded monitor calibration from ['2026_07_01 09:38']
+6.8658 	INFO 	Using renderer 'Intel(R) Arc(TM) Pro 140T GPU (16GB)' for graphics
+6.8658 	INFO 	OpenGL version supported by driver is 4..
+6.9196 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000208015AFCD0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000208015AFC70>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002087524FCD0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(560.0), np.float64(300.0)], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.9197 	EXP 	window1: backgroundImage = ''
+6.9197 	EXP 	window1: backgroundFit = 'none'
+6.9425 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9568 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9667 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9766 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9866 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9976 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.0119 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.0270 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.0470 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.0650 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.0820 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.0984 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.1147 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.1310 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.1471 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.1634 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.1900 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2067 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2232 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2398 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2559 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2564 	DEBUG 	Uploading Texture Font fontname to graphics card
+7.2701 	DEBUG 	Upload of Texture Font fontname complete
+7.2885 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2991 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.3120 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.3122 	DEBUG 	Uploading Texture Font fontname to graphics card
+7.3255 	DEBUG 	Upload of Texture Font fontname complete
+7.3270 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.3270 	EXP 	window1: recordFrameIntervals = False
+7.4985 	EXP 	window1: recordFrameIntervals = True
+8.4858 	WARNING 	t of last frame was 22.29ms (=1/44)
+8.6864 	WARNING 	t of last frame was 22.08ms (=1/45)
+9.1008 	WARNING 	t of last frame was 20.39ms (=1/49)
+9.1681 	EXP 	window1: recordFrameIntervals = False
+9.1683 	EXP 	Screen (0) actual frame rate measured at 60.08Hz
+9.1888 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.1986 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.2084 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.2183 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.2284 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.2383 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.2481 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.2580 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.2680 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.2779 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.2782 	DEBUG 	Uploading Texture Font fontname to graphics card
+9.2789 	DEBUG 	Upload of Texture Font fontname complete
+9.4316 	INFO 	keyboard.Keyboard is using ptb backend.
+9.4317 	EXP 	CRM_Spat: status = STARTED
+9.5124 	EXP 	Created text_instruction = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_instruction', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Selectionner la réponse', units='height', win=Window(...), wrapWidth=1)
+9.5164 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.5166 	DEBUG 	Uploading Texture Font fontname to graphics card
+9.5187 	DEBUG 	Upload of Texture Font fontname complete
+9.5227 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.5233 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.5236 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.5243 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.5248 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.5250 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.5253 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.5259 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.5264 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.5267 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.5270 	DEBUG 	Uploading Texture Font fontname to graphics card
+9.5277 	DEBUG 	Upload of Texture Font fontname complete
+9.5318 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.5320 	DEBUG 	Uploading Texture Font fontname to graphics card
+9.5408 	DEBUG 	Upload of Texture Font fontname complete
+9.5483 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.5484 	DEBUG 	Uploading Texture Font fontname to graphics card
+9.5544 	DEBUG 	Upload of Texture Font fontname complete
+9.5616 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.5619 	DEBUG 	Uploading Texture Font fontname to graphics card
+9.5693 	DEBUG 	Upload of Texture Font fontname complete
+9.5762 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.5763 	DEBUG 	Uploading Texture Font fontname to graphics card
+9.5838 	DEBUG 	Upload of Texture Font fontname complete
+9.5912 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.5914 	DEBUG 	Uploading Texture Font fontname to graphics card
+9.5990 	DEBUG 	Upload of Texture Font fontname complete
+9.6142 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.6144 	DEBUG 	Uploading Texture Font fontname to graphics card
+9.6259 	DEBUG 	Upload of Texture Font fontname complete
+9.6343 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.6344 	DEBUG 	Uploading Texture Font fontname to graphics card
+9.6438 	DEBUG 	Upload of Texture Font fontname complete
+9.9561 	INFO 	Loaded psychtoolbox audio version 3.0.19.696976569
+10.2151 	WARNING 	No default speaker specified in Preferences / Hardware, using first speaker found: Haut-parleurs (2- Cirrus Logic XU (with APO Extensions))
+10.2152 	DEBUG 	Found speaker device: Haut-parleurs (2- Cirrus Logic XU (with APO Extensions)) (4.0)
+10.5532 	INFO 	Created stream for speaker device: Haut-parleurs (2- Cirrus Logic XU (with APO Extensions)) (4.0)
+10.5567 	EXP 	Target: sampleRate = 48000
+10.5568 	EXP 	Target: channels = None
+10.5704 	DEBUG 	Converted audio clip from mono to stereo
+10.5768 	EXP 	Sound Target set volume 1.000
+10.5851 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.5861 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.5869 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.5874 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.5879 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.5888 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.5893 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.5901 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.5908 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.5912 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.5915 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.5918 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.5920 	DEBUG 	Uploading Texture Font fontname to graphics card
+10.6080 	DEBUG 	Upload of Texture Font fontname complete
+10.6137 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.6142 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.6147 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.6151 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.6154 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.6155 	DEBUG 	Uploading Texture Font fontname to graphics card
+10.6246 	DEBUG 	Upload of Texture Font fontname complete
+10.6285 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.6287 	DEBUG 	Uploading Texture Font fontname to graphics card
+10.6350 	DEBUG 	Upload of Texture Font fontname complete
+10.6420 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.6425 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.6427 	DEBUG 	Uploading Texture Font fontname to graphics card
+10.6490 	DEBUG 	Upload of Texture Font fontname complete
+10.6743 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.6748 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.6753 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.6755 	DEBUG 	Uploading Texture Font fontname to graphics card
+10.6865 	DEBUG 	Upload of Texture Font fontname complete
+10.8391 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.8395 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.8399 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.8404 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.8408 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.8409 	DEBUG 	Uploading Texture Font fontname to graphics card
+10.8488 	DEBUG 	Upload of Texture Font fontname complete
+10.8625 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.8629 	DEBUG 	Uploading Texture Font fontname to graphics card
+10.8699 	DEBUG 	Upload of Texture Font fontname complete
+10.8774 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.8775 	DEBUG 	Uploading Texture Font fontname to graphics card
+10.8873 	DEBUG 	Upload of Texture Font fontname complete
+0.0430 	DEBUG 	Read excel file with openpyxl: conditions/conditions_2loc.xlsx
+0.0434 	EXP 	Imported conditions/conditions_2loc.xlsx as conditions, 3 conditions, 4 params
+0.0450 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'Targ': 'E:\\ACERI\\LE_EF_EEG\\LE_EF\\CRMLE\\external_files\\sound\\FR\\T0_M_Delta_Vert_3', 'Mask': 'E:\\ACERI\\LE_EF_EEG\\LE_EF\\CRMLE\\external_files\\sound\\FR\\T0_M_Alpha_Rouge_1', 'AnglTarg': 30, 'AnglMask': -30, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+1.1317 	EXP 	Target: sampleRate = 44100
+1.1647 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+1.1648 	DEBUG 	Converted audio clip from mono to stereo
+1.3982 	DEBUG 	Saving data for CRM_Spat ExperimentHandler
+1.3998 	INFO 	saved data to C:\Users\chamery\Documents\Spat_CRM_Protocol\Spat_CRM_Protocol\src\data\pilot_CRM_Spat_2026-07-07_14h14.37.157.psydat
+1.4006 	INFO 	saved data to 'C:\\Users\\chamery\\Documents\\Spat_CRM_Protocol\\Spat_CRM_Protocol\\src\\data\\pilot_CRM_Spat_2026-07-07_14h14.37.157.csv'
+1.4084 	INFO 	Stopping keyboard key buffers.
