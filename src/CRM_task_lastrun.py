@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2026.1.3),
-    on juillet 09, 2026, at 15:13
+    on juillet 10, 2026, at 15:19
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -264,10 +264,10 @@ def setupDevices(expInfo, thisExp, win):
         deviceManager.addDevice(
             deviceClass='keyboard', deviceName='defaultKeyboard', backend='ptb'
         )
-    # initialize 'Circus_PcHamery'
+    # initialize 'Casque_PcHamery'
     deviceManager.addDevice(
-        deviceName='Circus_PcHamery',
-        index=4.0,
+        deviceName='Casque_PcHamery',
+        index=5.0,
         deviceClass='psychopy.hardware.speaker.SpeakerDevice',
         resample=True,
         latencyClass=1,
@@ -969,7 +969,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         secs=-1, 
         stereo=True, 
         hamming=True, 
-        speaker='Circus_PcHamery',    name='Target_1'
+        speaker='Casque_PcHamery',    name='Target_1'
     )
     Target_1.setVolume(1.0)
     Marsker_1 = sound.Sound(
@@ -977,9 +977,18 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         secs=-1, 
         stereo=True, 
         hamming=True, 
-        speaker='Circus_PcHamery',    name='Marsker_1'
+        speaker='Casque_PcHamery',    name='Marsker_1'
     )
     Marsker_1.setVolume(1.0)
+    # Run 'Begin Experiment' code from code
+    
+    import sofar
+    import soundfile as sf
+    from scipy.signal import fftconvolve
+    from functions import getHRIR
+    sofa = sofar.read_sofa("C:\\Users\\chamery\\Documents\\Spat_CRM_Protocol\\Spat_CRM_Protocol\\extfiles\\IRC_1002_R_44100.sofa")
+    azimut = [270 ,280 ,290 ,300 ,310 ,320 ,330 ,340 ,350 ,0 , 10, 20, 30, 40, 50, 60, 70, 80, 90]
+    
     
     # --- Initialize components for Routine "escu" ---
     Pasdeffort = visual.ButtonStim(win, 
@@ -1770,7 +1779,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         secs=-1, 
         stereo=True, 
         hamming=True, 
-        speaker='Circus_PcHamery',    name='Target_2'
+        speaker='Casque_PcHamery',    name='Target_2'
     )
     Target_2.setVolume(1.0)
     Marsker2_1 = sound.Sound(
@@ -1778,7 +1787,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         secs=-1, 
         stereo=True, 
         hamming=True, 
-        speaker='Circus_PcHamery',    name='Marsker2_1'
+        speaker='Casque_PcHamery',    name='Marsker2_1'
     )
     Marsker2_1.setVolume(1.0)
     Masker2_2 = sound.Sound(
@@ -1786,7 +1795,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         secs=-1, 
         stereo=True, 
         hamming=True, 
-        speaker='Circus_PcHamery',    name='Masker2_2'
+        speaker='Casque_PcHamery',    name='Masker2_2'
     )
     Masker2_2.setVolume(1.0)
     
@@ -2318,6 +2327,27 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         Marsker_1.setSound(Mask_2loc, hamming=True)
         Marsker_1.setVolume(1.0, log=False)
         Marsker_1.seek(0)
+        # Run 'Begin Routine' code from code
+        az = 90
+        ###hrtf
+        hrir_left, hrir_right = getHRIR(az, 0) # az : angle azimuth, 0 pas d'élévation
+        
+        audio, sr = sf.read(Target_2loc)
+        
+        left = fftconvolve(audio, hrir_left)
+        right = fftconvolve(audio, hrir_right)
+        stereo = np.column_stack((left, right))
+        stereo /= np.max(np.abs(stereo))
+        stereo = stereo.astype(np.float32) #pour ptb
+        Target_1 = sound.Sound(
+        stereo,
+        sampleRate=sr,
+        stereo=True,
+        hamming=False,     
+        speaker='Casque_PcHamery',
+        name='Target_1_binaural'
+        )
+        Target_1.setVolume(1.0, log=False)
         # store start times for bloc_2loc
         bloc_2loc.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
         bloc_2loc.tStart = globalClock.getTime(format='float')
@@ -3623,6 +3653,27 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                     # update status
                     Marsker_1.status = FINISHED
                     Marsker_1.stop()
+            # Run 'Each Frame' code from code
+            az = 90
+            ###hrtf
+            hrir_left, hrir_right = getHRIR(az, 0) # az : angle azimuth, 0 pas d'élévation
+            
+            audio, sr = sf.read(Target_2loc)
+            
+            left = fftconvolve(audio, hrir_left)
+            right = fftconvolve(audio, hrir_right)
+            stereo = np.column_stack((left, right))
+            stereo /= np.max(np.abs(stereo))
+            stereo = stereo.astype(np.float32) #pour ptb
+            Target_1 = sound.Sound(
+            stereo,
+            sampleRate=sr,
+            stereo=True,
+            hamming=False,     
+            speaker='Casque_PcHamery',
+            name='Target_1_binaural'
+            )
+            Target_1.setVolume(1.0, log=False)
             
             # check for quit (typically the Esc key)
             if defaultKeyboard.getKeys(keyList=["escape"]):
