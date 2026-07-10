@@ -1860,15 +1860,15 @@
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
       </ButtonComponent>
-      <SoundComponent name="Target" plugin="None">
-        <Param val="" valType="device" updates="None" name="deviceLabel"/>
+      <SoundComponent name="Target_1" plugin="None">
+        <Param val="Casque_PcHamery" valType="device" updates="None" name="deviceLabel"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
         <Param val="True" valType="bool" updates="constant" name="hamming"/>
-        <Param val="Target" valType="code" updates="None" name="name"/>
+        <Param val="Target_1" valType="code" updates="None" name="name"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="$Targ" valType="str" updates="set every repeat" name="sound"/>
+        <Param val="$Target_2loc" valType="str" updates="set every repeat" name="sound"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.5" valType="code" updates="None" name="startVal"/>
@@ -1879,15 +1879,15 @@
         <Param val="" valType="code" updates="None" name="validator"/>
         <Param val="1" valType="num" updates="constant" name="volume"/>
       </SoundComponent>
-      <SoundComponent name="Markser" plugin="None">
-        <Param val="" valType="device" updates="None" name="deviceLabel"/>
+      <SoundComponent name="Marsker_1" plugin="None">
+        <Param val="Casque_PcHamery" valType="device" updates="None" name="deviceLabel"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
         <Param val="True" valType="bool" updates="constant" name="hamming"/>
-        <Param val="Markser" valType="code" updates="None" name="name"/>
+        <Param val="Marsker_1" valType="code" updates="None" name="name"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="$Mask" valType="str" updates="set every repeat" name="sound"/>
+        <Param val="$Mask_2loc" valType="str" updates="set every repeat" name="sound"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.5" valType="code" updates="None" name="startVal"/>
@@ -3096,14 +3096,14 @@
         <Param val="" valType="code" updates="None" name="validator"/>
       </ButtonComponent>
       <SoundComponent name="Target_2" plugin="None">
-        <Param val="" valType="device" updates="None" name="deviceLabel"/>
+        <Param val="Casque_PcHamery" valType="device" updates="None" name="deviceLabel"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
         <Param val="True" valType="bool" updates="constant" name="hamming"/>
         <Param val="Target_2" valType="code" updates="None" name="name"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="$Targ" valType="str" updates="set every repeat" name="sound"/>
+        <Param val="$Target_3loc" valType="str" updates="set every repeat" name="sound"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.5" valType="code" updates="None" name="startVal"/>
@@ -3114,15 +3114,15 @@
         <Param val="" valType="code" updates="None" name="validator"/>
         <Param val="1" valType="num" updates="constant" name="volume"/>
       </SoundComponent>
-      <SoundComponent name="Marsker1_2" plugin="None">
-        <Param val="" valType="device" updates="None" name="deviceLabel"/>
+      <SoundComponent name="Marsker2_1" plugin="None">
+        <Param val="Casque_PcHamery" valType="device" updates="None" name="deviceLabel"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
         <Param val="True" valType="bool" updates="constant" name="hamming"/>
-        <Param val="Marsker1_2" valType="code" updates="None" name="name"/>
+        <Param val="Marsker2_1" valType="code" updates="None" name="name"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="$Mask1" valType="str" updates="set every repeat" name="sound"/>
+        <Param val="$Mask1_3loc" valType="str" updates="set every repeat" name="sound"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.5" valType="code" updates="None" name="startVal"/>
@@ -3134,14 +3134,14 @@
         <Param val="1" valType="num" updates="constant" name="volume"/>
       </SoundComponent>
       <SoundComponent name="Masker2_2" plugin="None">
-        <Param val="" valType="device" updates="None" name="deviceLabel"/>
+        <Param val="Casque_PcHamery" valType="device" updates="None" name="deviceLabel"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
         <Param val="True" valType="bool" updates="constant" name="hamming"/>
         <Param val="Masker2_2" valType="code" updates="None" name="name"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="$Mask2" valType="str" updates="set every repeat" name="sound"/>
+        <Param val="$Mask2_3loc" valType="str" updates="set every repeat" name="sound"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.5" valType="code" updates="None" name="startVal"/>
@@ -3153,13 +3153,94 @@
         <Param val="1" valType="num" updates="constant" name="volume"/>
       </SoundComponent>
     </Routine>
+    <Routine name="Start_Bloc2">
+      <RoutineSettingsComponent name="Start_Bloc2" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="Start_Bloc2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ButtonComponent name="StartBloc2" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="True" valType="bool" updates="constant" name="bold"/>
+        <Param val="None" valType="color" updates="constant" name="borderColor"/>
+        <Param val="0" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="" valType="extendedCode" updates="constant" name="callback"/>
+        <Param val="$(-1.0000, -1.0000, -1.0000)" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$(0.3804, 0.5373, 0.7412)" valType="color" updates="constant" name="fillColor"/>
+        <Param val="Arvo" valType="str" updates="constant" name="font"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="StartBloc2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="oncePerClick"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="" valType="num" updates="constant" name="padding"/>
+        <Param val="(0, -0.15)" valType="list" updates="constant" name="pos"/>
+        <Param val="every click" valType="str" updates="None" name="save"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.5, 0.2)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Bloc 2 : 3 locuteurs (1 cilbe + 2 mask)" valType="str" updates="constant" name="text"/>
+        <Param val="button onset" valType="str" updates="constant" name="timeRelativeTo"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ButtonComponent>
+      <TextComponent name="TextBloc2" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="TextBloc2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0.2)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="SpatFRCMR&amp;#10;&amp;#10;Écoutez les phrases, et reportez la couleur et le chiffre du locuteur qui s'addresse à DELTA." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
   </Routines>
   <Flow>
     <Routine name="Start"/>
     <LoopInitiator loopType="TrialHandler" name="trials_2loc">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="[{'Targ': 'E:\\ACERI\\LE_EF_EEG\\LE_EF\\CRMLE\\external_files\\sound\\FR\\T0_M_Delta_Vert_3', 'Mask': 'E:\\ACERI\\LE_EF_EEG\\LE_EF\\CRMLE\\external_files\\sound\\FR\\T0_M_Alpha_Rouge_1', 'AnglTarg': 30, 'AnglMask': -30}, {'Targ': 'E:\\ACERI\\LE_EF_EEG\\LE_EF\\CRMLE\\external_files\\sound\\FR\\T1_M_Delta_Vert_3', 'Mask': 'E:\\ACERI\\LE_EF_EEG\\LE_EF\\CRMLE\\external_files\\sound\\FR\\T0_M_Alpha_Rouge_1', 'AnglTarg': 30, 'AnglMask': -30}, {'Targ': 'E:\\ACERI\\LE_EF_EEG\\LE_EF\\CRMLE\\external_files\\sound\\FR\\T2_M_Delta_Vert_3', 'Mask': 'E:\\ACERI\\LE_EF_EEG\\LE_EF\\CRMLE\\external_files\\sound\\FR\\T0_M_Alpha_Rouge_1', 'AnglTarg': 30, 'AnglMask': -30}]" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="conditions/conditions_2loc.xlsx" valType="file"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('Target_2loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T1_M_Delta_jaune_3_0.wav'), ('Target_Talker_2loc', 'T1'), ('Target_Gender_2loc', 'M'), ('Target_Callsign_2loc', 'Delta'), ('Target_Color_2loc', 'jaune'), ('Target_Digit_2loc', np.int64(3)), ('Target_Angle_2loc', np.int64(0)), ('Mask_2loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T0_M_Alpha_vert_5_70.wav'), ('Mask_Talker_2loc', 'T0'), ('Mask_Gender_2loc', 'M'), ('Mask_Callsign_2loc', 'Alpha'), ('Mask_Color_2loc', 'vert'), ('Mask_Digit_2loc', np.int64(5)), ('Mask_Angle_2loc', np.int64(70))]), OrderedDict([('Target_2loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T5_F_Delta_bleu_5_0.wav'), ('Target_Talker_2loc', 'T5'), ('Target_Gender_2loc', 'F'), ('Target_Callsign_2loc', 'Delta'), ('Target_Color_2loc', 'bleu'), ('Target_Digit_2loc', np.int64(5)), ('Target_Angle_2loc', np.int64(0)), ('Mask_2loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T4_F_Tango_bleu_6_70.wav'), ('Mask_Talker_2loc', 'T4'), ('Mask_Gender_2loc', 'F'), ('Mask_Callsign_2loc', 'Tango'), ('Mask_Color_2loc', 'bleu'), ('Mask_Digit_2loc', np.int64(6)), ('Mask_Angle_2loc', np.int64(70))]), OrderedDict([('Target_2loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T5_F_Delta_rouge_4_0.wav'), ('Target_Talker_2loc', 'T5'), ('Target_Gender_2loc', 'F'), ('Target_Callsign_2loc', 'Delta'), ('Target_Color_2loc', 'rouge'), ('Target_Digit_2loc', np.int64(4)), ('Target_Angle_2loc', np.int64(0)), ('Mask_2loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T4_F_Whisky_rouge_7_70.wav'), ('Mask_Talker_2loc', 'T4'), ('Mask_Gender_2loc', 'F'), ('Mask_Callsign_2loc', 'Whisky'), ('Mask_Color_2loc', 'rouge'), ('Mask_Digit_2loc', np.int64(7)), ('Mask_Angle_2loc', np.int64(70))]), OrderedDict([('Target_2loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T1_M_Delta_jaune_1_0.wav'), ('Target_Talker_2loc', 'T1'), ('Target_Gender_2loc', 'M'), ('Target_Callsign_2loc', 'Delta'), ('Target_Color_2loc', 'jaune'), ('Target_Digit_2loc', np.int64(1)), ('Target_Angle_2loc', np.int64(0)), ('Mask_2loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T0_M_Echo_rouge_1_90.wav'), ('Mask_Talker_2loc', 'T0'), ('Mask_Gender_2loc', 'M'), ('Mask_Callsign_2loc', 'Echo'), ('Mask_Color_2loc', 'rouge'), ('Mask_Digit_2loc', np.int64(1)), ('Mask_Angle_2loc', np.int64(90))]), OrderedDict([('Target_2loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T0_M_Delta_jaune_8_0.wav'), ('Target_Talker_2loc', 'T0'), ('Target_Gender_2loc', 'M'), ('Target_Callsign_2loc', 'Delta'), ('Target_Color_2loc', 'jaune'), ('Target_Digit_2loc', np.int64(8)), ('Target_Angle_2loc', np.int64(0)), ('Mask_2loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T3_M_Oscar_vert_8_90.wav'), ('Mask_Talker_2loc', 'T3'), ('Mask_Gender_2loc', 'M'), ('Mask_Callsign_2loc', 'Oscar'), ('Mask_Color_2loc', 'vert'), ('Mask_Digit_2loc', np.int64(8)), ('Mask_Angle_2loc', np.int64(90))]), OrderedDict([('Target_2loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T7_F_Delta_bleu_2_0.wav'), ('Target_Talker_2loc', 'T7'), ('Target_Gender_2loc', 'F'), ('Target_Callsign_2loc', 'Delta'), ('Target_Color_2loc', 'bleu'), ('Target_Digit_2loc', np.int64(2)), ('Target_Angle_2loc', np.int64(0)), ('Mask_2loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T5_F_Oscar_bleu_7_10.wav'), ('Mask_Talker_2loc', 'T5'), ('Mask_Gender_2loc', 'F'), ('Mask_Callsign_2loc', 'Oscar'), ('Mask_Color_2loc', 'bleu'), ('Mask_Digit_2loc', np.int64(7)), ('Mask_Angle_2loc', np.int64(10))]), OrderedDict([('Target_2loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T5_F_Delta_rouge_6_0.wav'), ('Target_Talker_2loc', 'T5'), ('Target_Gender_2loc', 'F'), ('Target_Callsign_2loc', 'Delta'), ('Target_Color_2loc', 'rouge'), ('Target_Digit_2loc', np.int64(6)), ('Target_Angle_2loc', np.int64(0)), ('Mask_2loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T6_F_Kilo_vert_1_70.wav'), ('Mask_Talker_2loc', 'T6'), ('Mask_Gender_2loc', 'F'), ('Mask_Callsign_2loc', 'Kilo'), ('Mask_Color_2loc', 'vert'), ('Mask_Digit_2loc', np.int64(1)), ('Mask_Angle_2loc', np.int64(70))]), OrderedDict([('Target_2loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T2_M_Delta_jaune_5_0.wav'), ('Target_Talker_2loc', 'T2'), ('Target_Gender_2loc', 'M'), ('Target_Callsign_2loc', 'Delta'), ('Target_Color_2loc', 'jaune'), ('Target_Digit_2loc', np.int64(5)), ('Target_Angle_2loc', np.int64(0)), ('Mask_2loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T0_M_Oscar_rouge_8_70.wav'), ('Mask_Talker_2loc', 'T0'), ('Mask_Gender_2loc', 'M'), ('Mask_Callsign_2loc', 'Oscar'), ('Mask_Color_2loc', 'rouge'), ('Mask_Digit_2loc', np.int64(8)), ('Mask_Angle_2loc', np.int64(70))]), OrderedDict([('Target_2loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T3_M_Delta_vert_1_0.wav'), ('Target_Talker_2loc', 'T3'), ('Target_Gender_2loc', 'M'), ('Target_Callsign_2loc', 'Delta'), ('Target_Color_2loc', 'vert'), ('Target_Digit_2loc', np.int64(1)), ('Target_Angle_2loc', np.int64(0)), ('Mask_2loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T0_M_Oscar_rouge_7_90.wav'), ('Mask_Talker_2loc', 'T0'), ('Mask_Gender_2loc', 'M'), ('Mask_Callsign_2loc', 'Oscar'), ('Mask_Color_2loc', 'rouge'), ('Mask_Digit_2loc', np.int64(7)), ('Mask_Angle_2loc', np.int64(90))]), OrderedDict([('Target_2loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T7_F_Delta_jaune_2_0.wav'), ('Target_Talker_2loc', 'T7'), ('Target_Gender_2loc', 'F'), ('Target_Callsign_2loc', 'Delta'), ('Target_Color_2loc', 'jaune'), ('Target_Digit_2loc', np.int64(2)), ('Target_Angle_2loc', np.int64(0)), ('Mask_2loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T6_F_Echo_vert_2_60.wav'), ('Mask_Talker_2loc', 'T6'), ('Mask_Gender_2loc', 'F'), ('Mask_Callsign_2loc', 'Echo'), ('Mask_Color_2loc', 'vert'), ('Mask_Digit_2loc', np.int64(2)), ('Mask_Angle_2loc', np.int64(60))])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="conditions/conditions_2loc.csv" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="code"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="sequential" valType="str"/>
@@ -3170,10 +3251,11 @@
     <Routine name="bloc_2loc"/>
     <Routine name="escu"/>
     <LoopTerminator name="trials_2loc"/>
+    <Routine name="Start_Bloc2"/>
     <LoopInitiator loopType="TrialHandler" name="trials_3loc">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="[{'Targ': 'E:\\ACERI\\LE_EF_EEG\\LE_EF\\CRMLE\\external_files\\sound\\FR\\T0_M_Delta_Vert_3', 'Mask1': 'E:\\ACERI\\LE_EF_EEG\\LE_EF\\CRMLE\\external_files\\sound\\FR\\T0_M_Alpha_Rouge_1', 'Mask2': 'E:\\ACERI\\LE_EF_EEG\\LE_EF\\CRMLE\\external_files\\sound\\FR\\T0_M_Alpha_Rouge_1', 'AnglTarg': 30, 'AnglMask1': -30, 'AnglMask2': -30}, {'Targ': 'E:\\ACERI\\LE_EF_EEG\\LE_EF\\CRMLE\\external_files\\sound\\FR\\T1_M_Delta_Vert_3', 'Mask1': 'E:\\ACERI\\LE_EF_EEG\\LE_EF\\CRMLE\\external_files\\sound\\FR\\T0_M_Alpha_Rouge_1', 'Mask2': 'E:\\ACERI\\LE_EF_EEG\\LE_EF\\CRMLE\\external_files\\sound\\FR\\T0_M_Alpha_Rouge_1', 'AnglTarg': 30, 'AnglMask1': -30, 'AnglMask2': -30}, {'Targ': 'E:\\ACERI\\LE_EF_EEG\\LE_EF\\CRMLE\\external_files\\sound\\FR\\T2_M_Delta_Vert_3', 'Mask1': 'E:\\ACERI\\LE_EF_EEG\\LE_EF\\CRMLE\\external_files\\sound\\FR\\T0_M_Alpha_Rouge_1', 'Mask2': 'E:\\ACERI\\LE_EF_EEG\\LE_EF\\CRMLE\\external_files\\sound\\FR\\T0_M_Alpha_Rouge_1', 'AnglTarg': 30, 'AnglMask1': -30, 'AnglMask2': -30}]" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="conditions/conditions_3loc.xlsx" valType="file"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('Target_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T5_F_Delta_jaune_3_0.wav'), ('Target_Talker_3loc', 'T5'), ('Target_Gender_3loc', 'F'), ('Target_Callsign_3loc', 'Delta'), ('Target_Color_3loc', 'jaune'), ('Target_Digit_3loc', np.int64(3)), ('Target_Angle_3loc', np.int64(0)), ('Mask1_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T6_F_Tango_bleu_2_90.wav'), ('Mask1_Talker_3loc', 'T6'), ('Mask1_Gender_3loc', 'F'), ('Mask1_Callsign_3loc', 'Tango'), ('Mask1_Color_3loc', 'bleu'), ('Mask1_Digit_3loc', np.int64(2)), ('Mask1_Angle_3loc', np.int64(90)), ('Mask2_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T4_F_Charlie_bleu_1_-90.wav'), ('Mask2_Talker_3loc', 'T4'), ('Mask2_Gender_3loc', 'F'), ('Mask2_Callsign_3loc', 'Charlie'), ('Mask2_Color_3loc', 'bleu'), ('Mask2_Digit_3loc', np.int64(1)), ('Mask2_Angle_3loc', np.int64(-90))]), OrderedDict([('Target_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T0_M_Delta_jaune_6_0.wav'), ('Target_Talker_3loc', 'T0'), ('Target_Gender_3loc', 'M'), ('Target_Callsign_3loc', 'Delta'), ('Target_Color_3loc', 'jaune'), ('Target_Digit_3loc', np.int64(6)), ('Target_Angle_3loc', np.int64(0)), ('Mask1_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T1_M_Alpha_vert_4_80.wav'), ('Mask1_Talker_3loc', 'T1'), ('Mask1_Gender_3loc', 'M'), ('Mask1_Callsign_3loc', 'Alpha'), ('Mask1_Color_3loc', 'vert'), ('Mask1_Digit_3loc', np.int64(4)), ('Mask1_Angle_3loc', np.int64(80)), ('Mask2_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T3_M_Kilo_rouge_2_-80.wav'), ('Mask2_Talker_3loc', 'T3'), ('Mask2_Gender_3loc', 'M'), ('Mask2_Callsign_3loc', 'Kilo'), ('Mask2_Color_3loc', 'rouge'), ('Mask2_Digit_3loc', np.int64(2)), ('Mask2_Angle_3loc', np.int64(-80))]), OrderedDict([('Target_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T4_F_Delta_bleu_4_0.wav'), ('Target_Talker_3loc', 'T4'), ('Target_Gender_3loc', 'F'), ('Target_Callsign_3loc', 'Delta'), ('Target_Color_3loc', 'bleu'), ('Target_Digit_3loc', np.int64(4)), ('Target_Angle_3loc', np.int64(0)), ('Mask1_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T6_F_Kilo_rouge_6_70.wav'), ('Mask1_Talker_3loc', 'T6'), ('Mask1_Gender_3loc', 'F'), ('Mask1_Callsign_3loc', 'Kilo'), ('Mask1_Color_3loc', 'rouge'), ('Mask1_Digit_3loc', np.int64(6)), ('Mask1_Angle_3loc', np.int64(70)), ('Mask2_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T7_F_Whisky_jaune_1_-70.wav'), ('Mask2_Talker_3loc', 'T7'), ('Mask2_Gender_3loc', 'F'), ('Mask2_Callsign_3loc', 'Whisky'), ('Mask2_Color_3loc', 'jaune'), ('Mask2_Digit_3loc', np.int64(1)), ('Mask2_Angle_3loc', np.int64(-70))]), OrderedDict([('Target_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T2_M_Delta_bleu_8_0.wav'), ('Target_Talker_3loc', 'T2'), ('Target_Gender_3loc', 'M'), ('Target_Callsign_3loc', 'Delta'), ('Target_Color_3loc', 'bleu'), ('Target_Digit_3loc', np.int64(8)), ('Target_Angle_3loc', np.int64(0)), ('Mask1_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T0_M_Echo_bleu_3_10.wav'), ('Mask1_Talker_3loc', 'T0'), ('Mask1_Gender_3loc', 'M'), ('Mask1_Callsign_3loc', 'Echo'), ('Mask1_Color_3loc', 'bleu'), ('Mask1_Digit_3loc', np.int64(3)), ('Mask1_Angle_3loc', np.int64(10)), ('Mask2_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T1_M_Kilo_vert_6_-10.wav'), ('Mask2_Talker_3loc', 'T1'), ('Mask2_Gender_3loc', 'M'), ('Mask2_Callsign_3loc', 'Kilo'), ('Mask2_Color_3loc', 'vert'), ('Mask2_Digit_3loc', np.int64(6)), ('Mask2_Angle_3loc', np.int64(-10))]), OrderedDict([('Target_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T6_F_Delta_rouge_5_0.wav'), ('Target_Talker_3loc', 'T6'), ('Target_Gender_3loc', 'F'), ('Target_Callsign_3loc', 'Delta'), ('Target_Color_3loc', 'rouge'), ('Target_Digit_3loc', np.int64(5)), ('Target_Angle_3loc', np.int64(0)), ('Mask1_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T4_F_Charlie_vert_7_50.wav'), ('Mask1_Talker_3loc', 'T4'), ('Mask1_Gender_3loc', 'F'), ('Mask1_Callsign_3loc', 'Charlie'), ('Mask1_Color_3loc', 'vert'), ('Mask1_Digit_3loc', np.int64(7)), ('Mask1_Angle_3loc', np.int64(50)), ('Mask2_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T5_F_Echo_vert_6_-50.wav'), ('Mask2_Talker_3loc', 'T5'), ('Mask2_Gender_3loc', 'F'), ('Mask2_Callsign_3loc', 'Echo'), ('Mask2_Color_3loc', 'vert'), ('Mask2_Digit_3loc', np.int64(6)), ('Mask2_Angle_3loc', np.int64(-50))]), OrderedDict([('Target_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T3_M_Delta_jaune_1_0.wav'), ('Target_Talker_3loc', 'T3'), ('Target_Gender_3loc', 'M'), ('Target_Callsign_3loc', 'Delta'), ('Target_Color_3loc', 'jaune'), ('Target_Digit_3loc', np.int64(1)), ('Target_Angle_3loc', np.int64(0)), ('Mask1_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T2_M_Oscar_vert_8_10.wav'), ('Mask1_Talker_3loc', 'T2'), ('Mask1_Gender_3loc', 'M'), ('Mask1_Callsign_3loc', 'Oscar'), ('Mask1_Color_3loc', 'vert'), ('Mask1_Digit_3loc', np.int64(8)), ('Mask1_Angle_3loc', np.int64(10)), ('Mask2_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T0_M_Echo_vert_7_-10.wav'), ('Mask2_Talker_3loc', 'T0'), ('Mask2_Gender_3loc', 'M'), ('Mask2_Callsign_3loc', 'Echo'), ('Mask2_Color_3loc', 'vert'), ('Mask2_Digit_3loc', np.int64(7)), ('Mask2_Angle_3loc', np.int64(-10))]), OrderedDict([('Target_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T3_M_Delta_vert_8_0.wav'), ('Target_Talker_3loc', 'T3'), ('Target_Gender_3loc', 'M'), ('Target_Callsign_3loc', 'Delta'), ('Target_Color_3loc', 'vert'), ('Target_Digit_3loc', np.int64(8)), ('Target_Angle_3loc', np.int64(0)), ('Mask1_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T2_M_Kilo_rouge_4_20.wav'), ('Mask1_Talker_3loc', 'T2'), ('Mask1_Gender_3loc', 'M'), ('Mask1_Callsign_3loc', 'Kilo'), ('Mask1_Color_3loc', 'rouge'), ('Mask1_Digit_3loc', np.int64(4)), ('Mask1_Angle_3loc', np.int64(20)), ('Mask2_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T1_M_Charlie_jaune_7_-20.wav'), ('Mask2_Talker_3loc', 'T1'), ('Mask2_Gender_3loc', 'M'), ('Mask2_Callsign_3loc', 'Charlie'), ('Mask2_Color_3loc', 'jaune'), ('Mask2_Digit_3loc', np.int64(7)), ('Mask2_Angle_3loc', np.int64(-20))]), OrderedDict([('Target_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T2_M_Delta_rouge_4_0.wav'), ('Target_Talker_3loc', 'T2'), ('Target_Gender_3loc', 'M'), ('Target_Callsign_3loc', 'Delta'), ('Target_Color_3loc', 'rouge'), ('Target_Digit_3loc', np.int64(4)), ('Target_Angle_3loc', np.int64(0)), ('Mask1_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T1_M_Echo_vert_8_30.wav'), ('Mask1_Talker_3loc', 'T1'), ('Mask1_Gender_3loc', 'M'), ('Mask1_Callsign_3loc', 'Echo'), ('Mask1_Color_3loc', 'vert'), ('Mask1_Digit_3loc', np.int64(8)), ('Mask1_Angle_3loc', np.int64(30)), ('Mask2_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T0_M_Alpha_rouge_8_-30.wav'), ('Mask2_Talker_3loc', 'T0'), ('Mask2_Gender_3loc', 'M'), ('Mask2_Callsign_3loc', 'Alpha'), ('Mask2_Color_3loc', 'rouge'), ('Mask2_Digit_3loc', np.int64(8)), ('Mask2_Angle_3loc', np.int64(-30))]), OrderedDict([('Target_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T1_M_Delta_rouge_2_0.wav'), ('Target_Talker_3loc', 'T1'), ('Target_Gender_3loc', 'M'), ('Target_Callsign_3loc', 'Delta'), ('Target_Color_3loc', 'rouge'), ('Target_Digit_3loc', np.int64(2)), ('Target_Angle_3loc', np.int64(0)), ('Mask1_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T0_M_Alpha_jaune_5_90.wav'), ('Mask1_Talker_3loc', 'T0'), ('Mask1_Gender_3loc', 'M'), ('Mask1_Callsign_3loc', 'Alpha'), ('Mask1_Color_3loc', 'jaune'), ('Mask1_Digit_3loc', np.int64(5)), ('Mask1_Angle_3loc', np.int64(90)), ('Mask2_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T2_M_Charlie_vert_5_-90.wav'), ('Mask2_Talker_3loc', 'T2'), ('Mask2_Gender_3loc', 'M'), ('Mask2_Callsign_3loc', 'Charlie'), ('Mask2_Color_3loc', 'vert'), ('Mask2_Digit_3loc', np.int64(5)), ('Mask2_Angle_3loc', np.int64(-90))]), OrderedDict([('Target_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T6_F_Delta_bleu_4_0.wav'), ('Target_Talker_3loc', 'T6'), ('Target_Gender_3loc', 'F'), ('Target_Callsign_3loc', 'Delta'), ('Target_Color_3loc', 'bleu'), ('Target_Digit_3loc', np.int64(4)), ('Target_Angle_3loc', np.int64(0)), ('Mask1_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T5_F_Charlie_vert_1_80.wav'), ('Mask1_Talker_3loc', 'T5'), ('Mask1_Gender_3loc', 'F'), ('Mask1_Callsign_3loc', 'Charlie'), ('Mask1_Color_3loc', 'vert'), ('Mask1_Digit_3loc', np.int64(1)), ('Mask1_Angle_3loc', np.int64(80)), ('Mask2_3loc', 'E:\\ACERI\\CRMFRvsEN\\02SCRIPTS\\Tache\\sound\\FR\\T4_F_Tango_jaune_2_-80.wav'), ('Mask2_Talker_3loc', 'T4'), ('Mask2_Gender_3loc', 'F'), ('Mask2_Callsign_3loc', 'Tango'), ('Mask2_Color_3loc', 'jaune'), ('Mask2_Digit_3loc', np.int64(2)), ('Mask2_Angle_3loc', np.int64(-80))])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="conditions/conditions_3loc.csv" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="code"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="sequential" valType="str"/>

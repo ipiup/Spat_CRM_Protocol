@@ -1,4 +1,11 @@
-﻿Targ;Mask;AnglTarg;AnglMask
-E:\ACERI\LE_EF_EEG\LE_EF\CRMLE\external_files\sound\FR\T0_M_Delta_Vert_3;E:\ACERI\LE_EF_EEG\LE_EF\CRMLE\external_files\sound\FR\T0_M_Alpha_Rouge_1;30;-30
-E:\ACERI\LE_EF_EEG\LE_EF\CRMLE\external_files\sound\FR\T1_M_Delta_Vert_3;E:\ACERI\LE_EF_EEG\LE_EF\CRMLE\external_files\sound\FR\T0_M_Alpha_Rouge_1;30;-30
-E:\ACERI\LE_EF_EEG\LE_EF\CRMLE\external_files\sound\FR\T2_M_Delta_Vert_3;E:\ACERI\LE_EF_EEG\LE_EF\CRMLE\external_files\sound\FR\T0_M_Alpha_Rouge_1;30;-30
+Target_2loc,Target_Talker_2loc,Target_Gender_2loc,Target_Callsign_2loc,Target_Color_2loc,Target_Digit_2loc,Target_Angle_2loc,Mask_2loc,Mask_Talker_2loc,Mask_Gender_2loc,Mask_Callsign_2loc,Mask_Color_2loc,Mask_Digit_2loc,Mask_Angle_2loc
+E:\ACERI\CRMFRvsEN\02SCRIPTS\Tache\sound\FR\T0_M_Delta_jaune_6.wav,T0,M,Delta,jaune,6,0,E:\ACERI\CRMFRvsEN\02SCRIPTS\Tache\sound\FR\T1_M_Kilo_rouge_3.wav,T1,M,Kilo,rouge,3,90
+E:\ACERI\CRMFRvsEN\02SCRIPTS\Tache\sound\FR\T0_M_Delta_bleu_8.wav,T0,M,Delta,bleu,8,0,E:\ACERI\CRMFRvsEN\02SCRIPTS\Tache\sound\FR\T1_M_Charlie_bleu_7.wav,T1,M,Charlie,bleu,7,60
+E:\ACERI\CRMFRvsEN\02SCRIPTS\Tache\sound\FR\T2_M_Delta_vert_7.wav,T2,M,Delta,vert,7,0,E:\ACERI\CRMFRvsEN\02SCRIPTS\Tache\sound\FR\T0_M_Tango_rouge_2.wav,T0,M,Tango,rouge,2,30
+E:\ACERI\CRMFRvsEN\02SCRIPTS\Tache\sound\FR\T6_F_Delta_bleu_1.wav,T6,F,Delta,bleu,1,0,E:\ACERI\CRMFRvsEN\02SCRIPTS\Tache\sound\FR\T5_F_Whisky_rouge_3.wav,T5,F,Whisky,rouge,3,30
+E:\ACERI\CRMFRvsEN\02SCRIPTS\Tache\sound\FR\T0_M_Delta_vert_2.wav,T0,M,Delta,vert,2,0,E:\ACERI\CRMFRvsEN\02SCRIPTS\Tache\sound\FR\T1_M_Kilo_jaune_3.wav,T1,M,Kilo,jaune,3,50
+E:\ACERI\CRMFRvsEN\02SCRIPTS\Tache\sound\FR\T7_F_Delta_vert_2.wav,T7,F,Delta,vert,2,0,E:\ACERI\CRMFRvsEN\02SCRIPTS\Tache\sound\FR\T4_F_Alpha_bleu_8.wav,T4,F,Alpha,bleu,8,80
+E:\ACERI\CRMFRvsEN\02SCRIPTS\Tache\sound\FR\T0_M_Delta_vert_3.wav,T0,M,Delta,vert,3,0,E:\ACERI\CRMFRvsEN\02SCRIPTS\Tache\sound\FR\T1_M_Alpha_bleu_7.wav,T1,M,Alpha,bleu,7,40
+E:\ACERI\CRMFRvsEN\02SCRIPTS\Tache\sound\FR\T4_F_Delta_vert_1.wav,T4,F,Delta,vert,1,0,E:\ACERI\CRMFRvsEN\02SCRIPTS\Tache\sound\FR\T7_F_Whisky_bleu_7.wav,T7,F,Whisky,bleu,7,10
+E:\ACERI\CRMFRvsEN\02SCRIPTS\Tache\sound\FR\T0_M_Delta_jaune_4.wav,T0,M,Delta,jaune,4,0,E:\ACERI\CRMFRvsEN\02SCRIPTS\Tache\sound\FR\T1_M_Echo_rouge_8.wav,T1,M,Echo,rouge,8,90
+E:\ACERI\CRMFRvsEN\02SCRIPTS\Tache\sound\FR\T0_M_Delta_bleu_8.wav,T0,M,Delta,bleu,8,0,E:\ACERI\CRMFRvsEN\02SCRIPTS\Tache\sound\FR\T2_M_Charlie_vert_4.wav,T2,M,Charlie,vert,4,70

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2026.1.3),
-    on juillet 08, 2026, at 11:01
+    on juillet 09, 2026, at 15:13
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -264,6 +264,14 @@ def setupDevices(expInfo, thisExp, win):
         deviceManager.addDevice(
             deviceClass='keyboard', deviceName='defaultKeyboard', backend='ptb'
         )
+    # initialize 'Circus_PcHamery'
+    deviceManager.addDevice(
+        deviceName='Circus_PcHamery',
+        index=4.0,
+        deviceClass='psychopy.hardware.speaker.SpeakerDevice',
+        resample=True,
+        latencyClass=1,
+    )
     # return True if completed successfully
     return True
 
@@ -380,7 +388,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     Starttext = visual.TextStim(win=win, name='Starttext',
         text="SpatFRCMR\n\nÉcoutez les phrases, et reportez la couleur et le chiffre du locuteur qui s'addresse à DELTA.",
         font='Arial',
-        pos=(0, 0.3), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
+        pos=(0, 0.2), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='black', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=0.0);
@@ -388,7 +396,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         text='Commencer la tâche', font='Arvo',
         pos=(0, -0.15),
         letterHeight=0.05,
-        size=(0.5, 0.3), 
+        size=(0.5, 0.2), 
         ori=0.0
         ,borderWidth=0.0,
         fillColor=(0.3804, 0.5373, 0.7412), borderColor=None,
@@ -956,22 +964,22 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     J8.buttonClock = core.Clock()
     # set audio backend
     sound.Sound.backend = 'ptb'
-    Target = sound.Sound(
+    Target_1 = sound.Sound(
         'A', 
         secs=-1, 
         stereo=True, 
         hamming=True, 
-        speaker=None,    name='Target'
+        speaker='Circus_PcHamery',    name='Target_1'
     )
-    Target.setVolume(1.0)
-    Markser = sound.Sound(
+    Target_1.setVolume(1.0)
+    Marsker_1 = sound.Sound(
         'A', 
         secs=-1, 
         stereo=True, 
         hamming=True, 
-        speaker=None,    name='Markser'
+        speaker='Circus_PcHamery',    name='Marsker_1'
     )
-    Markser.setVolume(1.0)
+    Marsker_1.setVolume(1.0)
     
     # --- Initialize components for Routine "escu" ---
     Pasdeffort = visual.ButtonStim(win, 
@@ -1178,6 +1186,32 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         depth=-11
     )
     Quedubruit.buttonClock = core.Clock()
+    
+    # --- Initialize components for Routine "Start_Bloc2" ---
+    StartBloc2 = visual.ButtonStim(win, 
+        text='Bloc 2 : 3 locuteurs (1 cilbe + 2 mask)', font='Arvo',
+        pos=(0, -0.15),
+        letterHeight=0.05,
+        size=(0.5, 0.2), 
+        ori=0.0
+        ,borderWidth=0.0,
+        fillColor=(0.3804, 0.5373, 0.7412), borderColor=None,
+        color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb',
+        opacity=None,
+        bold=True, italic=False,
+        padding=None,
+        anchor='center',
+        name='StartBloc2',
+        depth=0
+    )
+    StartBloc2.buttonClock = core.Clock()
+    TextBloc2 = visual.TextStim(win=win, name='TextBloc2',
+        text="SpatFRCMR\n\nÉcoutez les phrases, et reportez la couleur et le chiffre du locuteur qui s'addresse à DELTA.",
+        font='Arial',
+        pos=(0, 0.2), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
+        color='black', colorSpace='rgb', opacity=None, 
+        languageStyle='LTR',
+        depth=-1.0);
     
     # --- Initialize components for Routine "bloc_3loc" ---
     text_instruction_3 = visual.TextStim(win=win, name='text_instruction_3',
@@ -1736,23 +1770,23 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         secs=-1, 
         stereo=True, 
         hamming=True, 
-        speaker=None,    name='Target_2'
+        speaker='Circus_PcHamery',    name='Target_2'
     )
     Target_2.setVolume(1.0)
-    Marsker1_2 = sound.Sound(
+    Marsker2_1 = sound.Sound(
         'A', 
         secs=-1, 
         stereo=True, 
         hamming=True, 
-        speaker=None,    name='Marsker1_2'
+        speaker='Circus_PcHamery',    name='Marsker2_1'
     )
-    Marsker1_2.setVolume(1.0)
+    Marsker2_1.setVolume(1.0)
     Masker2_2 = sound.Sound(
         'A', 
         secs=-1, 
         stereo=True, 
         hamming=True, 
-        speaker=None,    name='Masker2_2'
+        speaker='Circus_PcHamery',    name='Masker2_2'
     )
     Masker2_2.setVolume(1.0)
     
@@ -1967,7 +2001,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         text='Quitter', font='Arvo',
         pos=(0, -0.15),
         letterHeight=0.05,
-        size=(0.5, 0.3), 
+        size=(0.5, 0.2), 
         ori=0.0
         ,borderWidth=0.0,
         fillColor=(0.3804, 0.5373, 0.7412), borderColor=None,
@@ -1983,7 +2017,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     Endtext = visual.TextStim(win=win, name='Endtext',
         text='Tâche terminée!\n\nMerci!',
         font='Arial',
-        pos=(0, 0.3), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
+        pos=(0, 0.2), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='black', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-1.0);
@@ -2177,7 +2211,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         method='sequential', 
         extraInfo=expInfo, 
         originPath=-1, 
-        trialList=data.importConditions('conditions/conditions_2loc.xlsx'), 
+        trialList=data.importConditions('conditions/conditions_2loc.csv'), 
         seed=None, 
         isTrials=True, 
     )
@@ -2209,7 +2243,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # create an object to store info about Routine bloc_2loc
         bloc_2loc = data.Routine(
             name='bloc_2loc',
-            components=[text_instruction, R1, R2, R3, R4, R5, R6, R7, R8, B1, B2, B3, B4, B5, B6, B7, B8, V1, V2, V3, V4, V5, V6, V7, V8, J1, J2, J3, J4, J5, J6, J7, J8, Target, Markser],
+            components=[text_instruction, R1, R2, R3, R4, R5, R6, R7, R8, B1, B2, B3, B4, B5, B6, B7, B8, V1, V2, V3, V4, V5, V6, V7, V8, J1, J2, J3, J4, J5, J6, J7, J8, Target_1, Marsker_1],
         )
         bloc_2loc.status = NOT_STARTED
         continueRoutine = True
@@ -2278,12 +2312,12 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         J7.reset()
         # reset J8 to account for continued clicks & clear times on/off
         J8.reset()
-        Target.setSound(Targ, hamming=True)
-        Target.setVolume(1.0, log=False)
-        Target.seek(0)
-        Markser.setSound(Mask, hamming=True)
-        Markser.setVolume(1.0, log=False)
-        Markser.seek(0)
+        Target_1.setSound(Target_2loc, hamming=True)
+        Target_1.setVolume(1.0, log=False)
+        Target_1.seek(0)
+        Marsker_1.setSound(Mask_2loc, hamming=True)
+        Marsker_1.setVolume(1.0, log=False)
+        Marsker_1.seek(0)
         # store start times for bloc_2loc
         bloc_2loc.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
         bloc_2loc.tStart = globalClock.getTime(format='float')
@@ -3536,59 +3570,59 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # take note of whether J8 was clicked, so that next frame we know if clicks are new
             J8.wasClicked = J8.isClicked and J8.status == STARTED
             
-            # *Target* updates
+            # *Target_1* updates
             
-            # if Target is starting this frame...
-            if Target.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
+            # if Target_1 is starting this frame...
+            if Target_1.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
                 # keep track of start time/frame for later
-                Target.frameNStart = frameN  # exact frame index
-                Target.tStart = t  # local t and not account for scr refresh
-                Target.tStartRefresh = tThisFlipGlobal  # on global time
+                Target_1.frameNStart = frameN  # exact frame index
+                Target_1.tStart = t  # local t and not account for scr refresh
+                Target_1.tStartRefresh = tThisFlipGlobal  # on global time
                 # add timestamp to datafile
-                thisExp.addData('Target.started', tThisFlipGlobal)
+                thisExp.addData('Target_1.started', tThisFlipGlobal)
                 # update status
-                Target.status = STARTED
-                Target.play(when=win)  # sync with win flip
+                Target_1.status = STARTED
+                Target_1.play(when=win)  # sync with win flip
             
-            # if Target is stopping this frame...
-            if Target.status == STARTED:
-                if bool(False) or Target.isFinished:
+            # if Target_1 is stopping this frame...
+            if Target_1.status == STARTED:
+                if bool(False) or Target_1.isFinished:
                     # keep track of stop time/frame for later
-                    Target.tStop = t  # not accounting for scr refresh
-                    Target.tStopRefresh = tThisFlipGlobal  # on global time
-                    Target.frameNStop = frameN  # exact frame index
+                    Target_1.tStop = t  # not accounting for scr refresh
+                    Target_1.tStopRefresh = tThisFlipGlobal  # on global time
+                    Target_1.frameNStop = frameN  # exact frame index
                     # add timestamp to datafile
-                    thisExp.timestampOnFlip(win, 'Target.stopped')
+                    thisExp.timestampOnFlip(win, 'Target_1.stopped')
                     # update status
-                    Target.status = FINISHED
-                    Target.stop()
+                    Target_1.status = FINISHED
+                    Target_1.stop()
             
-            # *Markser* updates
+            # *Marsker_1* updates
             
-            # if Markser is starting this frame...
-            if Markser.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
+            # if Marsker_1 is starting this frame...
+            if Marsker_1.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
                 # keep track of start time/frame for later
-                Markser.frameNStart = frameN  # exact frame index
-                Markser.tStart = t  # local t and not account for scr refresh
-                Markser.tStartRefresh = tThisFlipGlobal  # on global time
+                Marsker_1.frameNStart = frameN  # exact frame index
+                Marsker_1.tStart = t  # local t and not account for scr refresh
+                Marsker_1.tStartRefresh = tThisFlipGlobal  # on global time
                 # add timestamp to datafile
-                thisExp.addData('Markser.started', tThisFlipGlobal)
+                thisExp.addData('Marsker_1.started', tThisFlipGlobal)
                 # update status
-                Markser.status = STARTED
-                Markser.play(when=win)  # sync with win flip
+                Marsker_1.status = STARTED
+                Marsker_1.play(when=win)  # sync with win flip
             
-            # if Markser is stopping this frame...
-            if Markser.status == STARTED:
-                if bool(False) or Markser.isFinished:
+            # if Marsker_1 is stopping this frame...
+            if Marsker_1.status == STARTED:
+                if bool(False) or Marsker_1.isFinished:
                     # keep track of stop time/frame for later
-                    Markser.tStop = t  # not accounting for scr refresh
-                    Markser.tStopRefresh = tThisFlipGlobal  # on global time
-                    Markser.frameNStop = frameN  # exact frame index
+                    Marsker_1.tStop = t  # not accounting for scr refresh
+                    Marsker_1.tStopRefresh = tThisFlipGlobal  # on global time
+                    Marsker_1.frameNStop = frameN  # exact frame index
                     # add timestamp to datafile
-                    thisExp.timestampOnFlip(win, 'Markser.stopped')
+                    thisExp.timestampOnFlip(win, 'Marsker_1.stopped')
                     # update status
-                    Markser.status = FINISHED
-                    Markser.stop()
+                    Marsker_1.status = FINISHED
+                    Marsker_1.stop()
             
             # check for quit (typically the Esc key)
             if defaultKeyboard.getKeys(keyList=["escape"]):
@@ -3856,8 +3890,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         else:
            trials_2loc.addData('J8.timesOn', "")
            trials_2loc.addData('J8.timesOff', "")
-        Target.pause()  # ensure sound has stopped at end of Routine
-        Markser.pause()  # ensure sound has stopped at end of Routine
+        Target_1.pause()  # ensure sound has stopped at end of Routine
+        Marsker_1.pause()  # ensure sound has stopped at end of Routine
         # the Routine "bloc_2loc" was not non-slip safe, so reset the non-slip timer
         routineTimer.reset()
         
@@ -4522,6 +4556,158 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # if running in a Session with a Liaison client, send data up to now
         thisSession.sendExperimentData()
     
+    # --- Prepare to start Routine "Start_Bloc2" ---
+    # create an object to store info about Routine Start_Bloc2
+    Start_Bloc2 = data.Routine(
+        name='Start_Bloc2',
+        components=[StartBloc2, TextBloc2],
+    )
+    Start_Bloc2.status = NOT_STARTED
+    continueRoutine = True
+    # update component parameters for each repeat
+    # reset StartBloc2 to account for continued clicks & clear times on/off
+    StartBloc2.reset()
+    # store start times for Start_Bloc2
+    Start_Bloc2.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
+    Start_Bloc2.tStart = globalClock.getTime(format='float')
+    Start_Bloc2.status = STARTED
+    thisExp.addData('Start_Bloc2.started', Start_Bloc2.tStart)
+    Start_Bloc2.maxDuration = None
+    # keep track of which components have finished
+    Start_Bloc2Components = Start_Bloc2.components
+    for thisComponent in Start_Bloc2.components:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    frameN = -1
+    
+    # --- Run Routine "Start_Bloc2" ---
+    thisExp.currentRoutine = Start_Bloc2
+    Start_Bloc2.forceEnded = routineForceEnded = not continueRoutine
+    while continueRoutine:
+        # get current time
+        t = routineTimer.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=routineTimer)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        # *StartBloc2* updates
+        
+        # if StartBloc2 is starting this frame...
+        if StartBloc2.status == NOT_STARTED and tThisFlip >= 0-frameTolerance:
+            # keep track of start time/frame for later
+            StartBloc2.frameNStart = frameN  # exact frame index
+            StartBloc2.tStart = t  # local t and not account for scr refresh
+            StartBloc2.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(StartBloc2, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'StartBloc2.started')
+            # update status
+            StartBloc2.status = STARTED
+            win.callOnFlip(StartBloc2.buttonClock.reset)
+            StartBloc2.setAutoDraw(True)
+        
+        # if StartBloc2 is active this frame...
+        if StartBloc2.status == STARTED:
+            # update params
+            pass
+            # check whether StartBloc2 has been pressed
+            if StartBloc2.isClicked:
+                if not StartBloc2.wasClicked:
+                    # if this is a new click, store time of first click and clicked until
+                    StartBloc2.timesOn.append(StartBloc2.buttonClock.getTime())
+                    StartBloc2.timesOff.append(StartBloc2.buttonClock.getTime())
+                elif len(StartBloc2.timesOff):
+                    # if click is continuing from last frame, update time of clicked until
+                    StartBloc2.timesOff[-1] = StartBloc2.buttonClock.getTime()
+                if not StartBloc2.wasClicked:
+                    # end routine when StartBloc2 is clicked
+                    continueRoutine = False
+                if not StartBloc2.wasClicked:
+                    # run callback code when StartBloc2 is clicked
+                    pass
+        # take note of whether StartBloc2 was clicked, so that next frame we know if clicks are new
+        StartBloc2.wasClicked = StartBloc2.isClicked and StartBloc2.status == STARTED
+        
+        # *TextBloc2* updates
+        
+        # if TextBloc2 is starting this frame...
+        if TextBloc2.status == NOT_STARTED and tThisFlip >= 0-frameTolerance:
+            # keep track of start time/frame for later
+            TextBloc2.frameNStart = frameN  # exact frame index
+            TextBloc2.tStart = t  # local t and not account for scr refresh
+            TextBloc2.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(TextBloc2, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'TextBloc2.started')
+            # update status
+            TextBloc2.status = STARTED
+            TextBloc2.setAutoDraw(True)
+        
+        # if TextBloc2 is active this frame...
+        if TextBloc2.status == STARTED:
+            # update params
+            pass
+        
+        # check for quit (typically the Esc key)
+        if defaultKeyboard.getKeys(keyList=["escape"]):
+            thisExp.status = FINISHED
+        if thisExp.status == FINISHED or endExpNow:
+            endExperiment(thisExp, win=win)
+            return
+        # pause experiment here if requested
+        if thisExp.status == PAUSED:
+            pauseExperiment(
+                thisExp=thisExp, 
+                win=win, 
+                timers=[routineTimer, globalClock], 
+                currentRoutine=Start_Bloc2,
+            )
+            # skip the frame we paused on
+            continue
+        
+        # has a Component requested the Routine to end?
+        if not continueRoutine:
+            Start_Bloc2.forceEnded = routineForceEnded = True
+        # has the Routine been forcibly ended?
+        if Start_Bloc2.forceEnded or routineForceEnded:
+            break
+        # has every Component finished?
+        continueRoutine = False
+        for thisComponent in Start_Bloc2.components:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # --- Ending Routine "Start_Bloc2" ---
+    for thisComponent in Start_Bloc2.components:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    # store stop times for Start_Bloc2
+    Start_Bloc2.tStop = globalClock.getTime(format='float')
+    Start_Bloc2.tStopRefresh = tThisFlipGlobal
+    thisExp.addData('Start_Bloc2.stopped', Start_Bloc2.tStop)
+    thisExp.addData('StartBloc2.numClicks', StartBloc2.numClicks)
+    if StartBloc2.numClicks:
+       thisExp.addData('StartBloc2.timesOn', StartBloc2.timesOn)
+       thisExp.addData('StartBloc2.timesOff', StartBloc2.timesOff)
+    else:
+       thisExp.addData('StartBloc2.timesOn', "")
+       thisExp.addData('StartBloc2.timesOff', "")
+    thisExp.nextEntry()
+    # the Routine "Start_Bloc2" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset()
+    
     # set up handler to look after randomisation of conditions etc
     trials_3loc = data.TrialHandler2(
         name='trials_3loc',
@@ -4529,7 +4715,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         method='sequential', 
         extraInfo=expInfo, 
         originPath=-1, 
-        trialList=data.importConditions('conditions/conditions_3loc.xlsx'), 
+        trialList=data.importConditions('conditions/conditions_3loc.csv'), 
         seed=None, 
         isTrials=True, 
     )
@@ -4561,7 +4747,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # create an object to store info about Routine bloc_3loc
         bloc_3loc = data.Routine(
             name='bloc_3loc',
-            components=[text_instruction_3, R1_3, R2_3, R3_3, R4_3, R5_3, R6_3, R7_3, R8_3, B1_3, B2_3, B3_3, B4_3, B5_3, B6_3, B7_3, B8_3, V1_3, V2_3, V3_3, V4_3, V5_3, V6_3, V7_3, V8_3, J1_3, J2_3, J3_3, J4_3, J5_3, J6_3, J7_3, J8_3, Target_2, Marsker1_2, Masker2_2],
+            components=[text_instruction_3, R1_3, R2_3, R3_3, R4_3, R5_3, R6_3, R7_3, R8_3, B1_3, B2_3, B3_3, B4_3, B5_3, B6_3, B7_3, B8_3, V1_3, V2_3, V3_3, V4_3, V5_3, V6_3, V7_3, V8_3, J1_3, J2_3, J3_3, J4_3, J5_3, J6_3, J7_3, J8_3, Target_2, Marsker2_1, Masker2_2],
         )
         bloc_3loc.status = NOT_STARTED
         continueRoutine = True
@@ -4630,13 +4816,13 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         J7_3.reset()
         # reset J8_3 to account for continued clicks & clear times on/off
         J8_3.reset()
-        Target_2.setSound(Targ, hamming=True)
+        Target_2.setSound(Target_3loc, hamming=True)
         Target_2.setVolume(1.0, log=False)
         Target_2.seek(0)
-        Marsker1_2.setSound(Mask1, hamming=True)
-        Marsker1_2.setVolume(1.0, log=False)
-        Marsker1_2.seek(0)
-        Masker2_2.setSound(Mask2, hamming=True)
+        Marsker2_1.setSound(Mask1_3loc, hamming=True)
+        Marsker2_1.setVolume(1.0, log=False)
+        Marsker2_1.seek(0)
+        Masker2_2.setSound(Mask2_3loc, hamming=True)
         Masker2_2.setVolume(1.0, log=False)
         Masker2_2.seek(0)
         # store start times for bloc_3loc
@@ -5918,32 +6104,32 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                     Target_2.status = FINISHED
                     Target_2.stop()
             
-            # *Marsker1_2* updates
+            # *Marsker2_1* updates
             
-            # if Marsker1_2 is starting this frame...
-            if Marsker1_2.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
+            # if Marsker2_1 is starting this frame...
+            if Marsker2_1.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
                 # keep track of start time/frame for later
-                Marsker1_2.frameNStart = frameN  # exact frame index
-                Marsker1_2.tStart = t  # local t and not account for scr refresh
-                Marsker1_2.tStartRefresh = tThisFlipGlobal  # on global time
+                Marsker2_1.frameNStart = frameN  # exact frame index
+                Marsker2_1.tStart = t  # local t and not account for scr refresh
+                Marsker2_1.tStartRefresh = tThisFlipGlobal  # on global time
                 # add timestamp to datafile
-                thisExp.addData('Marsker1_2.started', tThisFlipGlobal)
+                thisExp.addData('Marsker2_1.started', tThisFlipGlobal)
                 # update status
-                Marsker1_2.status = STARTED
-                Marsker1_2.play(when=win)  # sync with win flip
+                Marsker2_1.status = STARTED
+                Marsker2_1.play(when=win)  # sync with win flip
             
-            # if Marsker1_2 is stopping this frame...
-            if Marsker1_2.status == STARTED:
-                if bool(False) or Marsker1_2.isFinished:
+            # if Marsker2_1 is stopping this frame...
+            if Marsker2_1.status == STARTED:
+                if bool(False) or Marsker2_1.isFinished:
                     # keep track of stop time/frame for later
-                    Marsker1_2.tStop = t  # not accounting for scr refresh
-                    Marsker1_2.tStopRefresh = tThisFlipGlobal  # on global time
-                    Marsker1_2.frameNStop = frameN  # exact frame index
+                    Marsker2_1.tStop = t  # not accounting for scr refresh
+                    Marsker2_1.tStopRefresh = tThisFlipGlobal  # on global time
+                    Marsker2_1.frameNStop = frameN  # exact frame index
                     # add timestamp to datafile
-                    thisExp.timestampOnFlip(win, 'Marsker1_2.stopped')
+                    thisExp.timestampOnFlip(win, 'Marsker2_1.stopped')
                     # update status
-                    Marsker1_2.status = FINISHED
-                    Marsker1_2.stop()
+                    Marsker2_1.status = FINISHED
+                    Marsker2_1.stop()
             
             # *Masker2_2* updates
             
@@ -6239,7 +6425,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
            trials_3loc.addData('J8_3.timesOn', "")
            trials_3loc.addData('J8_3.timesOff', "")
         Target_2.pause()  # ensure sound has stopped at end of Routine
-        Marsker1_2.pause()  # ensure sound has stopped at end of Routine
+        Marsker2_1.pause()  # ensure sound has stopped at end of Routine
         Masker2_2.pause()  # ensure sound has stopped at end of Routine
         # the Routine "bloc_3loc" was not non-slip safe, so reset the non-slip timer
         routineTimer.reset()
